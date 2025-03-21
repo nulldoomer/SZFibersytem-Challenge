@@ -6,6 +6,7 @@ CREATE TABLE users (
     email NVARCHAR(100) NOT NULL UNIQUE,
     password_hash NVARCHAR(255) NOT NULL,
     role_id UNIQUEIDENTIFIER NOT NULL,
+    
     created_at DATETIME DEFAULT GETDATE(),
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE CASCADE
 );
