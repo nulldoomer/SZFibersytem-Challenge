@@ -25,6 +25,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	runtimeOnly("com.microsoft.sqlserver:mssql-jdbc")
 	implementation("org.flywaydb:flyway-sqlserver")
+	implementation("com.graphql-java:graphql-java:22.3")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
