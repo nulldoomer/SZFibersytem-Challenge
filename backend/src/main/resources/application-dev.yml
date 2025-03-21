@@ -1,5 +1,5 @@
 #DataBase
-URL_CONNECTION: jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=true;trustServerCertificate=true
+URL_CONNECTION: jdbc:sqlserver://localhost:1433;databaseName=challenge_db;encrypt=true;trustServerCertificate=true
 DB_PASSWORD: YourStrong!Passw0rd
 DB_USER: sa
 
