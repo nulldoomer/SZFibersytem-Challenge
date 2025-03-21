@@ -1,0 +1,7 @@
+#DataBase
+URL_CONNECTION: jdbc:sqlserver://localhost:1433;databaseName=master;encrypt=true;trustServerCertificate=true
+DB_PASSWORD: YourStrong!Passw0rd
+DB_USER: sa
+
+#JWT
+JWT_SECRET: 4711ca71194d635b2786bb5e7df58edcf2137142c4549fcbbe86483100de1159
